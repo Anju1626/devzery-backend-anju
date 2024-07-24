@@ -1,5 +1,13 @@
 # devzery-backend-anju
 
+
+## Flask API Screenshot
+<img width="414" alt="Screenshot 2024-07-24 at 11 19 57 PM" src="https://github.com/user-attachments/assets/edd344c2-7e6c-473a-af15-7741ca991641">
+
+## PostGres SQL Screenshot
+<img width="705" alt="Screenshot 2024-07-24 at 11 22 01 PM" src="https://github.com/user-attachments/assets/ec03ab7d-0211-4a70-8132-54496b4f09c0">
+
+
 Here's a README file for setting up and starting a Flask project:
 
 # Flask Project Setup Guide
@@ -72,11 +80,7 @@ This guide will help you set up and run the Flask backend for the Test Case Mana
    ```
 
 4. The application should now be running on `http://127.0.0.1:3001/`
-
-## Screenshot
-<img width="414" alt="Screenshot 2024-07-24 at 11 19 57 PM" src="https://github.com/user-attachments/assets/edd344c2-7e6c-473a-af15-7741ca991641">
-
-
+   
 ## API Endpoints
 
 - GET `/api/testcases`: Retrieve all test cases
@@ -222,10 +226,6 @@ This guide will help you set up PostgreSQL for the Test Case Management applicat
    ```
    \q
    ```
-## Screenshot
-<img width="705" alt="Screenshot 2024-07-24 at 11 22 01 PM" src="https://github.com/user-attachments/assets/ec03ab7d-0211-4a70-8132-54496b4f09c0">
-
-
 ## Configuration
 
 Update the database connection parameters in your Flask application:
