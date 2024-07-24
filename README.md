@@ -66,8 +66,12 @@ This guide will help you set up and run the Flask backend for the Test Case Mana
    ```
    flask run
    ```
+   OR
+   ```
+   python app.py
+   ```
 
-3. The application should now be running on `http://127.0.0.1:3001/`
+4. The application should now be running on `http://127.0.0.1:3001/`
 
 ## API Endpoints
 
