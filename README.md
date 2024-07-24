@@ -50,13 +50,13 @@ This guide will help you set up and run the Flask backend for the Test Case Mana
    ```
    FLASK_APP=app.py
    FLASK_ENV=development
-   DB_NAME=testcase_management
-   DB_USER=testcase_user
-   DB_PASSWORD=your_secure_password
+   DB_NAME=devzery_database
+   DB_USER=tester
+   DB_PASSWORD=test_password
    DB_HOST=localhost
    DB_PORT=5432
    ```
-   Replace `your_secure_password` with the actual password you set for your PostgreSQL user.
+   Replace `test_password` with the actual password you set for your PostgreSQL user.
 
 ## Running the Application
 
@@ -162,31 +162,31 @@ This guide will help you set up PostgreSQL for the Test Case Management applicat
 
 2. Create a new database:
    ```sql
-   CREATE DATABASE testcase_management;
+   CREATE DATABASE devzery_database;
    ```
 
 4. Connect to the new database:
    ```sql
-   \c testcase_management
+   \c devzery_database
    ```
 
 3. Create a new user role:
    ```sql
-   CREATE USER testcase_user WITH PASSWORD 'your_secure_password';
+   CREATE USER tester WITH PASSWORD 'test_password';
    ```
 
 4. Grant privileges to the new user:
    ```sql
-   GRANT ALL PRIVILEGES ON DATABASE testcase_management TO testcase_user;
+   GRANT ALL PRIVILEGES ON DATABASE devzery_database TO tester;
    ```
 
 4. Connect to the new database:
    ```sql
-   \c testcase_management
+   \c devzery_database
    ```
 5. Grant privileges on the public schema to the new user
    ```sql
-   GRANT ALL ON SCHEMA public TO testcase_user;
+   GRANT ALL ON SCHEMA public TO tester;
    ```
 
 5. Create the 'testcases' table:
@@ -220,9 +220,9 @@ This guide will help you set up PostgreSQL for the Test Case Management applicat
 Update the database connection parameters in your Flask application:
 
 ```python
-DB_NAME = "testcase_management"
-DB_USER = "testcase_user"
-DB_PASSWORD = "your_secure_password"  # The password you set in step 4
+DB_NAME = "devzery_database"
+DB_USER = "tester"
+DB_PASSWORD = "test_password"  # The password you set in step 4
 DB_HOST = "localhost"
 DB_PORT = "5432"
 ```
