@@ -2,7 +2,8 @@
 
 
 ## Flask API Screenshot
-<img width="414" alt="Screenshot 2024-07-24 at 11 19 57 PM" src="https://github.com/user-attachments/assets/edd344c2-7e6c-473a-af15-7741ca991641">
+<img width="443" alt="Screenshot 2024-07-24 at 11 28 45 PM" src="https://github.com/user-attachments/assets/844a6743-caa6-468b-9366-36d6d07c3ad5">
+
 
 ## PostGres SQL Screenshot
 <img width="705" alt="Screenshot 2024-07-24 at 11 22 01 PM" src="https://github.com/user-attachments/assets/ec03ab7d-0211-4a70-8132-54496b4f09c0">
